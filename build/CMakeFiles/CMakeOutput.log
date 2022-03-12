@@ -1,0 +1,873 @@
+The system is: Windows - 10.0.19042 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: C:/MinGW/bin/gcc.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
+
+The C compiler identification is GNU, found in "e:/CMP/Level3/Second/Computer Graphics/New folder/build/CMakeFiles/3.12.18081601-MSVC_2/CompilerIdC/a.exe"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: C:/MinGW/bin/g++.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
+
+The CXX compiler identification is GNU, found in "e:/CMP/Level3/Second/Computer Graphics/New folder/build/CMakeFiles/3.12.18081601-MSVC_2/CompilerIdCXX/a.exe"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: e:/CMP/Level3/Second/Computer Graphics/New folder/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/MinGW/bin/make.exe" "cmTC_1b17a/fast"
+C:/MinGW/bin/make.exe -f CMakeFiles/cmTC_1b17a.dir/build.make CMakeFiles/cmTC_1b17a.dir/build
+make.exe[1]: Entering directory 'e:/CMP/Level3/Second/Computer Graphics/New folder/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1b17a.dir/testCCompiler.c.obj
+cd "E:/CMP/Level3/Second/Computer Graphics/New folder/build/CMakeFiles/CMakeTmp" && C:/MinGW/bin/gcc.exe    -o CMakeFiles/cmTC_1b17a.dir/testCCompiler.c.obj   -c "E:/CMP/Level3/Second/Computer Graphics/New folder/build/CMakeFiles/CMakeTmp/testCCompiler.c"
+Linking C executable cmTC_1b17a.exe
+cd "E:/CMP/Level3/Second/Computer Graphics/New folder/build/CMakeFiles/CMakeTmp" && "C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cmake.exe" -E remove -f CMakeFiles/cmTC_1b17a.dir/objects.a
+cd "E:/CMP/Level3/Second/Computer Graphics/New folder/build/CMakeFiles/CMakeTmp" && C:/MinGW/bin/ar.exe cr CMakeFiles/cmTC_1b17a.dir/objects.a @CMakeFiles/cmTC_1b17a.dir/objects1.rsp
+cd "E:/CMP/Level3/Second/Computer Graphics/New folder/build/CMakeFiles/CMakeTmp" && C:/MinGW/bin/gcc.exe      -Wl,--whole-archive CMakeFiles/cmTC_1b17a.dir/objects.a -Wl,--no-whole-archive  -o cmTC_1b17a.exe -Wl,--out-implib,libcmTC_1b17a.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_1b17a.dir/linklibs.rsp
+make.exe[1]: Leaving directory 'e:/CMP/Level3/Second/Computer Graphics/New folder/build/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: e:/CMP/Level3/Second/Computer Graphics/New folder/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/MinGW/bin/make.exe" "cmTC_54411/fast"
+C:/MinGW/bin/make.exe -f CMakeFiles/cmTC_54411.dir/build.make CMakeFiles/cmTC_54411.dir/build
+make.exe[1]: Entering directory 'e:/CMP/Level3/Second/Computer Graphics/New folder/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_54411.dir/CMakeCCompilerABI.c.obj
+cd "E:/CMP/Level3/Second/Computer Graphics/New folder/build/CMakeFiles/CMakeTmp" && C:/MinGW/bin/gcc.exe    -o CMakeFiles/cmTC_54411.dir/CMakeCCompilerABI.c.obj   -c "C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.12/Modules/CMakeCCompilerABI.c"
+Linking C executable cmTC_54411.exe
+cd "E:/CMP/Level3/Second/Computer Graphics/New folder/build/CMakeFiles/CMakeTmp" && "C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cmake.exe" -E remove -f CMakeFiles/cmTC_54411.dir/objects.a
+cd "E:/CMP/Level3/Second/Computer Graphics/New folder/build/CMakeFiles/CMakeTmp" && C:/MinGW/bin/ar.exe cr CMakeFiles/cmTC_54411.dir/objects.a @CMakeFiles/cmTC_54411.dir/objects1.rsp
+cd "E:/CMP/Level3/Second/Computer Graphics/New folder/build/CMakeFiles/CMakeTmp" && C:/MinGW/bin/gcc.exe     -v -Wl,--whole-archive CMakeFiles/cmTC_54411.dir/objects.a -Wl,--no-whole-archive  -o cmTC_54411.exe -Wl,--out-implib,libcmTC_54411.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+Using built-in specs.
+COLLECT_GCC=C:/MinGW/bin/gcc.exe
+COLLECT_LTO_WRAPPER=c:/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/9.2.0/lto-wrapper.exe
+Target: x86_64-w64-mingw32
+Configured with: ../src/configure --enable-languages=c,c++ --build=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --disable-multilib --prefix=/c/temp/gcc/dest --with-sysroot=/c/temp/gcc/dest --disable-libstdcxx-pch --disable-libstdcxx-verbose --disable-nls --disable-shared --disable-win32-registry --with-tune=haswell --enable-threads=posix --enable-libgomp
+Thread model: posix
+gcc version 9.2.0 (GCC) 
+COMPILER_PATH=c:/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/9.2.0/;c:/mingw/bin/../libexec/gcc/;c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/bin/
+LIBRARY_PATH=c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/;c:/mingw/bin/../lib/gcc/;c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../lib/;c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/lib/;c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_54411.exe' '-mtune=haswell' '-march=x86-64'
+ c:/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/9.2.0/collect2.exe -plugin c:/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/9.2.0/liblto_plugin-0.dll -plugin-opt=c:/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/9.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\Raghod\AppData\Local\Temp\ccCy3R49.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt --sysroot=C:/temp/gcc/dest -m i386pep -Bdynamic -o cmTC_54411.exe c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/crtbegin.o -Lc:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0 -Lc:/mingw/bin/../lib/gcc -Lc:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/lib/../lib -Lc:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../lib -Lc:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/lib -Lc:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../.. --whole-archive CMakeFiles/cmTC_54411.dir/objects.a --no-whole-archive --out-implib libcmTC_54411.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/crtend.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_54411.exe' '-mtune=haswell' '-march=x86-64'
+make.exe[1]: Leaving directory 'e:/CMP/Level3/Second/Computer Graphics/New folder/build/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: e:/CMP/Level3/Second/Computer Graphics/New folder/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"C:/MinGW/bin/make.exe" "cmTC_54411/fast"]
+  ignore line: [C:/MinGW/bin/make.exe -f CMakeFiles/cmTC_54411.dir/build.make CMakeFiles/cmTC_54411.dir/build]
+  ignore line: [make.exe[1]: Entering directory 'e:/CMP/Level3/Second/Computer Graphics/New folder/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_54411.dir/CMakeCCompilerABI.c.obj]
+  ignore line: [cd "E:/CMP/Level3/Second/Computer Graphics/New folder/build/CMakeFiles/CMakeTmp" && C:/MinGW/bin/gcc.exe    -o CMakeFiles/cmTC_54411.dir/CMakeCCompilerABI.c.obj   -c "C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.12/Modules/CMakeCCompilerABI.c"]
+  ignore line: [Linking C executable cmTC_54411.exe]
+  ignore line: [cd "E:/CMP/Level3/Second/Computer Graphics/New folder/build/CMakeFiles/CMakeTmp" && "C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cmake.exe" -E remove -f CMakeFiles/cmTC_54411.dir/objects.a]
+  ignore line: [cd "E:/CMP/Level3/Second/Computer Graphics/New folder/build/CMakeFiles/CMakeTmp" && C:/MinGW/bin/ar.exe cr CMakeFiles/cmTC_54411.dir/objects.a @CMakeFiles/cmTC_54411.dir/objects1.rsp]
+  ignore line: [cd "E:/CMP/Level3/Second/Computer Graphics/New folder/build/CMakeFiles/CMakeTmp" && C:/MinGW/bin/gcc.exe     -v -Wl,--whole-archive CMakeFiles/cmTC_54411.dir/objects.a -Wl,--no-whole-archive  -o cmTC_54411.exe -Wl,--out-implib,libcmTC_54411.dll.a -Wl,--major-image-version,0,--minor-image-version,0 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=C:/MinGW/bin/gcc.exe]
+  ignore line: [COLLECT_LTO_WRAPPER=c:/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/9.2.0/lto-wrapper.exe]
+  ignore line: [Target: x86_64-w64-mingw32]
+  ignore line: [Configured with: ../src/configure --enable-languages=c,c++ --build=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --disable-multilib --prefix=/c/temp/gcc/dest --with-sysroot=/c/temp/gcc/dest --disable-libstdcxx-pch --disable-libstdcxx-verbose --disable-nls --disable-shared --disable-win32-registry --with-tune=haswell --enable-threads=posix --enable-libgomp]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 9.2.0 (GCC) ]
+  ignore line: [COMPILER_PATH=c:/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/9.2.0/]
+  ignore line: [c:/mingw/bin/../libexec/gcc/]
+  ignore line: [c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/bin/]
+  ignore line: [LIBRARY_PATH=c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/]
+  ignore line: [c:/mingw/bin/../lib/gcc/]
+  ignore line: [c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/lib/../lib/]
+  ignore line: [c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../lib/]
+  ignore line: [c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/lib/]
+  ignore line: [c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_54411.exe' '-mtune=haswell' '-march=x86-64']
+  link line: [ c:/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/9.2.0/collect2.exe -plugin c:/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/9.2.0/liblto_plugin-0.dll -plugin-opt=c:/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/9.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\Raghod\AppData\Local\Temp\ccCy3R49.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt --sysroot=C:/temp/gcc/dest -m i386pep -Bdynamic -o cmTC_54411.exe c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/crtbegin.o -Lc:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0 -Lc:/mingw/bin/../lib/gcc -Lc:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/lib/../lib -Lc:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../lib -Lc:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/lib -Lc:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../.. --whole-archive CMakeFiles/cmTC_54411.dir/objects.a --no-whole-archive --out-implib libcmTC_54411.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/crtend.o]
+    arg [c:/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/9.2.0/collect2.exe] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [c:/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/9.2.0/liblto_plugin-0.dll] ==> ignore
+    arg [-plugin-opt=c:/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/9.2.0/lto-wrapper.exe] ==> ignore
+    arg [-plugin-opt=-fresolution=C:\Users\Raghod\AppData\Local\Temp\ccCy3R49.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmoldname] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmingwex] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmsvcrt] ==> ignore
+    arg [-plugin-opt=-pass-through=-lpthread] ==> ignore
+    arg [-plugin-opt=-pass-through=-ladvapi32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lshell32] ==> ignore
+    arg [-plugin-opt=-pass-through=-luser32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmoldname] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmingwex] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmsvcrt] ==> ignore
+    arg [--sysroot=C:/temp/gcc/dest] ==> ignore
+    arg [-m] ==> ignore
+    arg [i386pep] ==> ignore
+    arg [-Bdynamic] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_54411.exe] ==> ignore
+    arg [c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o] ==> ignore
+    arg [c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/crtbegin.o] ==> ignore
+    arg [-Lc:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0] ==> dir [c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0]
+    arg [-Lc:/mingw/bin/../lib/gcc] ==> dir [c:/mingw/bin/../lib/gcc]
+    arg [-Lc:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/lib/../lib] ==> dir [c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/lib/../lib]
+    arg [-Lc:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../lib] ==> dir [c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../lib]
+    arg [-Lc:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/lib] ==> dir [c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/lib]
+    arg [-Lc:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../..] ==> dir [c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../..]
+    arg [--whole-archive] ==> ignore
+    arg [CMakeFiles/cmTC_54411.dir/objects.a] ==> ignore
+    arg [--no-whole-archive] ==> ignore
+    arg [--out-implib] ==> ignore
+    arg [libcmTC_54411.dll.a] ==> ignore
+    arg [--major-image-version] ==> ignore
+    arg [0] ==> ignore
+    arg [--minor-image-version] ==> ignore
+    arg [0] ==> ignore
+    arg [-lmingw32] ==> lib [mingw32]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lmoldname] ==> lib [moldname]
+    arg [-lmingwex] ==> lib [mingwex]
+    arg [-lmsvcrt] ==> lib [msvcrt]
+    arg [-lpthread] ==> lib [pthread]
+    arg [-ladvapi32] ==> lib [advapi32]
+    arg [-lshell32] ==> lib [shell32]
+    arg [-luser32] ==> lib [user32]
+    arg [-lkernel32] ==> lib [kernel32]
+    arg [-lmingw32] ==> lib [mingw32]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lmoldname] ==> lib [moldname]
+    arg [-lmingwex] ==> lib [mingwex]
+    arg [-lmsvcrt] ==> lib [msvcrt]
+    arg [c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/crtend.o] ==> ignore
+  remove lib [msvcrt]
+  remove lib [msvcrt]
+  collapse library dir [c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0] ==> [C:/MinGW/lib/gcc/x86_64-w64-mingw32/9.2.0]
+  collapse library dir [c:/mingw/bin/../lib/gcc] ==> [C:/MinGW/lib/gcc]
+  collapse library dir [c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/lib/../lib] ==> [C:/MinGW/x86_64-w64-mingw32/lib]
+  collapse library dir [c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../lib] ==> [C:/MinGW/lib]
+  collapse library dir [c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/lib] ==> [C:/MinGW/x86_64-w64-mingw32/lib]
+  collapse library dir [c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../..] ==> [C:/MinGW/lib]
+  implicit libs: [mingw32;gcc;moldname;mingwex;pthread;advapi32;shell32;user32;kernel32;mingw32;gcc;moldname;mingwex]
+  implicit dirs: [C:/MinGW/lib/gcc/x86_64-w64-mingw32/9.2.0;C:/MinGW/lib/gcc;C:/MinGW/x86_64-w64-mingw32/lib;C:/MinGW/lib]
+  implicit fwks: []
+
+
+
+
+Detecting C [-std=c11] compiler features compiled with the following output:
+Change Dir: e:/CMP/Level3/Second/Computer Graphics/New folder/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/MinGW/bin/make.exe" "cmTC_db0f5/fast"
+C:/MinGW/bin/make.exe -f CMakeFiles/cmTC_db0f5.dir/build.make CMakeFiles/cmTC_db0f5.dir/build
+make.exe[1]: Entering directory 'e:/CMP/Level3/Second/Computer Graphics/New folder/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_db0f5.dir/feature_tests.c.obj
+cd "E:/CMP/Level3/Second/Computer Graphics/New folder/build/CMakeFiles/CMakeTmp" && C:/MinGW/bin/gcc.exe   -std=c11 -o CMakeFiles/cmTC_db0f5.dir/feature_tests.c.obj   -c "E:/CMP/Level3/Second/Computer Graphics/New folder/build/CMakeFiles/feature_tests.c"
+Linking C executable cmTC_db0f5.exe
+cd "E:/CMP/Level3/Second/Computer Graphics/New folder/build/CMakeFiles/CMakeTmp" && "C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cmake.exe" -E remove -f CMakeFiles/cmTC_db0f5.dir/objects.a
+cd "E:/CMP/Level3/Second/Computer Graphics/New folder/build/CMakeFiles/CMakeTmp" && C:/MinGW/bin/ar.exe cr CMakeFiles/cmTC_db0f5.dir/objects.a @CMakeFiles/cmTC_db0f5.dir/objects1.rsp
+cd "E:/CMP/Level3/Second/Computer Graphics/New folder/build/CMakeFiles/CMakeTmp" && C:/MinGW/bin/gcc.exe      -Wl,--whole-archive CMakeFiles/cmTC_db0f5.dir/objects.a -Wl,--no-whole-archive  -o cmTC_db0f5.exe -Wl,--out-implib,libcmTC_db0f5.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_db0f5.dir/linklibs.rsp
+make.exe[1]: Leaving directory 'e:/CMP/Level3/Second/Computer Graphics/New folder/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:1c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c99] compiler features compiled with the following output:
+Change Dir: e:/CMP/Level3/Second/Computer Graphics/New folder/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/MinGW/bin/make.exe" "cmTC_aa461/fast"
+C:/MinGW/bin/make.exe -f CMakeFiles/cmTC_aa461.dir/build.make CMakeFiles/cmTC_aa461.dir/build
+make.exe[1]: Entering directory 'e:/CMP/Level3/Second/Computer Graphics/New folder/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_aa461.dir/feature_tests.c.obj
+cd "E:/CMP/Level3/Second/Computer Graphics/New folder/build/CMakeFiles/CMakeTmp" && C:/MinGW/bin/gcc.exe   -std=c99 -o CMakeFiles/cmTC_aa461.dir/feature_tests.c.obj   -c "E:/CMP/Level3/Second/Computer Graphics/New folder/build/CMakeFiles/feature_tests.c"
+Linking C executable cmTC_aa461.exe
+cd "E:/CMP/Level3/Second/Computer Graphics/New folder/build/CMakeFiles/CMakeTmp" && "C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cmake.exe" -E remove -f CMakeFiles/cmTC_aa461.dir/objects.a
+cd "E:/CMP/Level3/Second/Computer Graphics/New folder/build/CMakeFiles/CMakeTmp" && C:/MinGW/bin/ar.exe cr CMakeFiles/cmTC_aa461.dir/objects.a @CMakeFiles/cmTC_aa461.dir/objects1.rsp
+cd "E:/CMP/Level3/Second/Computer Graphics/New folder/build/CMakeFiles/CMakeTmp" && C:/MinGW/bin/gcc.exe      -Wl,--whole-archive CMakeFiles/cmTC_aa461.dir/objects.a -Wl,--no-whole-archive  -o cmTC_aa461.exe -Wl,--out-implib,libcmTC_aa461.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_aa461.dir/linklibs.rsp
+make.exe[1]: Leaving directory 'e:/CMP/Level3/Second/Computer Graphics/New folder/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c90] compiler features compiled with the following output:
+Change Dir: e:/CMP/Level3/Second/Computer Graphics/New folder/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/MinGW/bin/make.exe" "cmTC_e7aa4/fast"
+C:/MinGW/bin/make.exe -f CMakeFiles/cmTC_e7aa4.dir/build.make CMakeFiles/cmTC_e7aa4.dir/build
+make.exe[1]: Entering directory 'e:/CMP/Level3/Second/Computer Graphics/New folder/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e7aa4.dir/feature_tests.c.obj
+cd "E:/CMP/Level3/Second/Computer Graphics/New folder/build/CMakeFiles/CMakeTmp" && C:/MinGW/bin/gcc.exe   -std=c90 -o CMakeFiles/cmTC_e7aa4.dir/feature_tests.c.obj   -c "E:/CMP/Level3/Second/Computer Graphics/New folder/build/CMakeFiles/feature_tests.c"
+Linking C executable cmTC_e7aa4.exe
+cd "E:/CMP/Level3/Second/Computer Graphics/New folder/build/CMakeFiles/CMakeTmp" && "C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cmake.exe" -E remove -f CMakeFiles/cmTC_e7aa4.dir/objects.a
+cd "E:/CMP/Level3/Second/Computer Graphics/New folder/build/CMakeFiles/CMakeTmp" && C:/MinGW/bin/ar.exe cr CMakeFiles/cmTC_e7aa4.dir/objects.a @CMakeFiles/cmTC_e7aa4.dir/objects1.rsp
+cd "E:/CMP/Level3/Second/Computer Graphics/New folder/build/CMakeFiles/CMakeTmp" && C:/MinGW/bin/gcc.exe      -Wl,--whole-archive CMakeFiles/cmTC_e7aa4.dir/objects.a -Wl,--no-whole-archive  -o cmTC_e7aa4.exe -Wl,--out-implib,libcmTC_e7aa4.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_e7aa4.dir/linklibs.rsp
+make.exe[1]: Leaving directory 'e:/CMP/Level3/Second/Computer Graphics/New folder/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:0c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:0c_variadic_macros
+Determining if the CXX compiler works passed with the following output:
+Change Dir: e:/CMP/Level3/Second/Computer Graphics/New folder/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/MinGW/bin/make.exe" "cmTC_e0057/fast"
+C:/MinGW/bin/make.exe -f CMakeFiles/cmTC_e0057.dir/build.make CMakeFiles/cmTC_e0057.dir/build
+make.exe[1]: Entering directory 'e:/CMP/Level3/Second/Computer Graphics/New folder/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_e0057.dir/testCXXCompiler.cxx.obj
+cd "E:/CMP/Level3/Second/Computer Graphics/New folder/build/CMakeFiles/CMakeTmp" && C:/MinGW/bin/g++.exe     -o CMakeFiles/cmTC_e0057.dir/testCXXCompiler.cxx.obj -c "E:/CMP/Level3/Second/Computer Graphics/New folder/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx"
+Linking CXX executable cmTC_e0057.exe
+cd "E:/CMP/Level3/Second/Computer Graphics/New folder/build/CMakeFiles/CMakeTmp" && "C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cmake.exe" -E remove -f CMakeFiles/cmTC_e0057.dir/objects.a
+cd "E:/CMP/Level3/Second/Computer Graphics/New folder/build/CMakeFiles/CMakeTmp" && C:/MinGW/bin/ar.exe cr CMakeFiles/cmTC_e0057.dir/objects.a @CMakeFiles/cmTC_e0057.dir/objects1.rsp
+cd "E:/CMP/Level3/Second/Computer Graphics/New folder/build/CMakeFiles/CMakeTmp" && C:/MinGW/bin/g++.exe      -Wl,--whole-archive CMakeFiles/cmTC_e0057.dir/objects.a -Wl,--no-whole-archive  -o cmTC_e0057.exe -Wl,--out-implib,libcmTC_e0057.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_e0057.dir/linklibs.rsp
+make.exe[1]: Leaving directory 'e:/CMP/Level3/Second/Computer Graphics/New folder/build/CMakeFiles/CMakeTmp'
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: e:/CMP/Level3/Second/Computer Graphics/New folder/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/MinGW/bin/make.exe" "cmTC_94645/fast"
+C:/MinGW/bin/make.exe -f CMakeFiles/cmTC_94645.dir/build.make CMakeFiles/cmTC_94645.dir/build
+make.exe[1]: Entering directory 'e:/CMP/Level3/Second/Computer Graphics/New folder/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_94645.dir/CMakeCXXCompilerABI.cpp.obj
+cd "E:/CMP/Level3/Second/Computer Graphics/New folder/build/CMakeFiles/CMakeTmp" && C:/MinGW/bin/g++.exe     -o CMakeFiles/cmTC_94645.dir/CMakeCXXCompilerABI.cpp.obj -c "C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.12/Modules/CMakeCXXCompilerABI.cpp"
+Linking CXX executable cmTC_94645.exe
+cd "E:/CMP/Level3/Second/Computer Graphics/New folder/build/CMakeFiles/CMakeTmp" && "C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cmake.exe" -E remove -f CMakeFiles/cmTC_94645.dir/objects.a
+cd "E:/CMP/Level3/Second/Computer Graphics/New folder/build/CMakeFiles/CMakeTmp" && C:/MinGW/bin/ar.exe cr CMakeFiles/cmTC_94645.dir/objects.a @CMakeFiles/cmTC_94645.dir/objects1.rsp
+cd "E:/CMP/Level3/Second/Computer Graphics/New folder/build/CMakeFiles/CMakeTmp" && C:/MinGW/bin/g++.exe     -v -Wl,--whole-archive CMakeFiles/cmTC_94645.dir/objects.a -Wl,--no-whole-archive  -o cmTC_94645.exe -Wl,--out-implib,libcmTC_94645.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+Using built-in specs.
+COLLECT_GCC=C:/MinGW/bin/g++.exe
+COLLECT_LTO_WRAPPER=c:/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/9.2.0/lto-wrapper.exe
+Target: x86_64-w64-mingw32
+Configured with: ../src/configure --enable-languages=c,c++ --build=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --disable-multilib --prefix=/c/temp/gcc/dest --with-sysroot=/c/temp/gcc/dest --disable-libstdcxx-pch --disable-libstdcxx-verbose --disable-nls --disable-shared --disable-win32-registry --with-tune=haswell --enable-threads=posix --enable-libgomp
+Thread model: posix
+gcc version 9.2.0 (GCC) 
+COMPILER_PATH=c:/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/9.2.0/;c:/mingw/bin/../libexec/gcc/;c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/bin/
+LIBRARY_PATH=c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/;c:/mingw/bin/../lib/gcc/;c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../lib/;c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/lib/;c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_94645.exe' '-mtune=haswell' '-march=x86-64'
+ c:/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/9.2.0/collect2.exe -plugin c:/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/9.2.0/liblto_plugin-0.dll -plugin-opt=c:/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/9.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\Raghod\AppData\Local\Temp\ccVGbpnl.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt --sysroot=C:/temp/gcc/dest -m i386pep -Bdynamic -o cmTC_94645.exe c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/crtbegin.o -Lc:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0 -Lc:/mingw/bin/../lib/gcc -Lc:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/lib/../lib -Lc:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../lib -Lc:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/lib -Lc:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../.. --whole-archive CMakeFiles/cmTC_94645.dir/objects.a --no-whole-archive --out-implib libcmTC_94645.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/crtend.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_94645.exe' '-mtune=haswell' '-march=x86-64'
+make.exe[1]: Leaving directory 'e:/CMP/Level3/Second/Computer Graphics/New folder/build/CMakeFiles/CMakeTmp'
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: e:/CMP/Level3/Second/Computer Graphics/New folder/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"C:/MinGW/bin/make.exe" "cmTC_94645/fast"]
+  ignore line: [C:/MinGW/bin/make.exe -f CMakeFiles/cmTC_94645.dir/build.make CMakeFiles/cmTC_94645.dir/build]
+  ignore line: [make.exe[1]: Entering directory 'e:/CMP/Level3/Second/Computer Graphics/New folder/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_94645.dir/CMakeCXXCompilerABI.cpp.obj]
+  ignore line: [cd "E:/CMP/Level3/Second/Computer Graphics/New folder/build/CMakeFiles/CMakeTmp" && C:/MinGW/bin/g++.exe     -o CMakeFiles/cmTC_94645.dir/CMakeCXXCompilerABI.cpp.obj -c "C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.12/Modules/CMakeCXXCompilerABI.cpp"]
+  ignore line: [Linking CXX executable cmTC_94645.exe]
+  ignore line: [cd "E:/CMP/Level3/Second/Computer Graphics/New folder/build/CMakeFiles/CMakeTmp" && "C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cmake.exe" -E remove -f CMakeFiles/cmTC_94645.dir/objects.a]
+  ignore line: [cd "E:/CMP/Level3/Second/Computer Graphics/New folder/build/CMakeFiles/CMakeTmp" && C:/MinGW/bin/ar.exe cr CMakeFiles/cmTC_94645.dir/objects.a @CMakeFiles/cmTC_94645.dir/objects1.rsp]
+  ignore line: [cd "E:/CMP/Level3/Second/Computer Graphics/New folder/build/CMakeFiles/CMakeTmp" && C:/MinGW/bin/g++.exe     -v -Wl,--whole-archive CMakeFiles/cmTC_94645.dir/objects.a -Wl,--no-whole-archive  -o cmTC_94645.exe -Wl,--out-implib,libcmTC_94645.dll.a -Wl,--major-image-version,0,--minor-image-version,0 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=C:/MinGW/bin/g++.exe]
+  ignore line: [COLLECT_LTO_WRAPPER=c:/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/9.2.0/lto-wrapper.exe]
+  ignore line: [Target: x86_64-w64-mingw32]
+  ignore line: [Configured with: ../src/configure --enable-languages=c,c++ --build=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --disable-multilib --prefix=/c/temp/gcc/dest --with-sysroot=/c/temp/gcc/dest --disable-libstdcxx-pch --disable-libstdcxx-verbose --disable-nls --disable-shared --disable-win32-registry --with-tune=haswell --enable-threads=posix --enable-libgomp]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 9.2.0 (GCC) ]
+  ignore line: [COMPILER_PATH=c:/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/9.2.0/]
+  ignore line: [c:/mingw/bin/../libexec/gcc/]
+  ignore line: [c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/bin/]
+  ignore line: [LIBRARY_PATH=c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/]
+  ignore line: [c:/mingw/bin/../lib/gcc/]
+  ignore line: [c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/lib/../lib/]
+  ignore line: [c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../lib/]
+  ignore line: [c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/lib/]
+  ignore line: [c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_94645.exe' '-mtune=haswell' '-march=x86-64']
+  link line: [ c:/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/9.2.0/collect2.exe -plugin c:/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/9.2.0/liblto_plugin-0.dll -plugin-opt=c:/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/9.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\Raghod\AppData\Local\Temp\ccVGbpnl.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt --sysroot=C:/temp/gcc/dest -m i386pep -Bdynamic -o cmTC_94645.exe c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/crtbegin.o -Lc:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0 -Lc:/mingw/bin/../lib/gcc -Lc:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/lib/../lib -Lc:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../lib -Lc:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/lib -Lc:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../.. --whole-archive CMakeFiles/cmTC_94645.dir/objects.a --no-whole-archive --out-implib libcmTC_94645.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/crtend.o]
+    arg [c:/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/9.2.0/collect2.exe] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [c:/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/9.2.0/liblto_plugin-0.dll] ==> ignore
+    arg [-plugin-opt=c:/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/9.2.0/lto-wrapper.exe] ==> ignore
+    arg [-plugin-opt=-fresolution=C:\Users\Raghod\AppData\Local\Temp\ccVGbpnl.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmoldname] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmingwex] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmsvcrt] ==> ignore
+    arg [-plugin-opt=-pass-through=-lpthread] ==> ignore
+    arg [-plugin-opt=-pass-through=-ladvapi32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lshell32] ==> ignore
+    arg [-plugin-opt=-pass-through=-luser32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmoldname] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmingwex] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmsvcrt] ==> ignore
+    arg [--sysroot=C:/temp/gcc/dest] ==> ignore
+    arg [-m] ==> ignore
+    arg [i386pep] ==> ignore
+    arg [-Bdynamic] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_94645.exe] ==> ignore
+    arg [c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o] ==> ignore
+    arg [c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/crtbegin.o] ==> ignore
+    arg [-Lc:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0] ==> dir [c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0]
+    arg [-Lc:/mingw/bin/../lib/gcc] ==> dir [c:/mingw/bin/../lib/gcc]
+    arg [-Lc:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/lib/../lib] ==> dir [c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/lib/../lib]
+    arg [-Lc:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../lib] ==> dir [c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../lib]
+    arg [-Lc:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/lib] ==> dir [c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/lib]
+    arg [-Lc:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../..] ==> dir [c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../..]
+    arg [--whole-archive] ==> ignore
+    arg [CMakeFiles/cmTC_94645.dir/objects.a] ==> ignore
+    arg [--no-whole-archive] ==> ignore
+    arg [--out-implib] ==> ignore
+    arg [libcmTC_94645.dll.a] ==> ignore
+    arg [--major-image-version] ==> ignore
+    arg [0] ==> ignore
+    arg [--minor-image-version] ==> ignore
+    arg [0] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lmingw32] ==> lib [mingw32]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lmoldname] ==> lib [moldname]
+    arg [-lmingwex] ==> lib [mingwex]
+    arg [-lmsvcrt] ==> lib [msvcrt]
+    arg [-lpthread] ==> lib [pthread]
+    arg [-ladvapi32] ==> lib [advapi32]
+    arg [-lshell32] ==> lib [shell32]
+    arg [-luser32] ==> lib [user32]
+    arg [-lkernel32] ==> lib [kernel32]
+    arg [-lmingw32] ==> lib [mingw32]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lmoldname] ==> lib [moldname]
+    arg [-lmingwex] ==> lib [mingwex]
+    arg [-lmsvcrt] ==> lib [msvcrt]
+    arg [c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/crtend.o] ==> ignore
+  remove lib [msvcrt]
+  remove lib [msvcrt]
+  collapse library dir [c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0] ==> [C:/MinGW/lib/gcc/x86_64-w64-mingw32/9.2.0]
+  collapse library dir [c:/mingw/bin/../lib/gcc] ==> [C:/MinGW/lib/gcc]
+  collapse library dir [c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/lib/../lib] ==> [C:/MinGW/x86_64-w64-mingw32/lib]
+  collapse library dir [c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../lib] ==> [C:/MinGW/lib]
+  collapse library dir [c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/lib] ==> [C:/MinGW/x86_64-w64-mingw32/lib]
+  collapse library dir [c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../..] ==> [C:/MinGW/lib]
+  implicit libs: [stdc++;mingw32;gcc;moldname;mingwex;pthread;advapi32;shell32;user32;kernel32;mingw32;gcc;moldname;mingwex]
+  implicit dirs: [C:/MinGW/lib/gcc/x86_64-w64-mingw32/9.2.0;C:/MinGW/lib/gcc;C:/MinGW/x86_64-w64-mingw32/lib;C:/MinGW/lib]
+  implicit fwks: []
+
+
+
+
+Detecting CXX [-std=c++2a] compiler features compiled with the following output:
+Change Dir: e:/CMP/Level3/Second/Computer Graphics/New folder/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/MinGW/bin/make.exe" "cmTC_371eb/fast"
+C:/MinGW/bin/make.exe -f CMakeFiles/cmTC_371eb.dir/build.make CMakeFiles/cmTC_371eb.dir/build
+make.exe[1]: Entering directory 'e:/CMP/Level3/Second/Computer Graphics/New folder/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_371eb.dir/feature_tests.cxx.obj
+cd "E:/CMP/Level3/Second/Computer Graphics/New folder/build/CMakeFiles/CMakeTmp" && C:/MinGW/bin/g++.exe    -std=c++2a -o CMakeFiles/cmTC_371eb.dir/feature_tests.cxx.obj -c "E:/CMP/Level3/Second/Computer Graphics/New folder/build/CMakeFiles/feature_tests.cxx"
+Linking CXX executable cmTC_371eb.exe
+cd "E:/CMP/Level3/Second/Computer Graphics/New folder/build/CMakeFiles/CMakeTmp" && "C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cmake.exe" -E remove -f CMakeFiles/cmTC_371eb.dir/objects.a
+cd "E:/CMP/Level3/Second/Computer Graphics/New folder/build/CMakeFiles/CMakeTmp" && C:/MinGW/bin/ar.exe cr CMakeFiles/cmTC_371eb.dir/objects.a @CMakeFiles/cmTC_371eb.dir/objects1.rsp
+cd "E:/CMP/Level3/Second/Computer Graphics/New folder/build/CMakeFiles/CMakeTmp" && C:/MinGW/bin/g++.exe      -Wl,--whole-archive CMakeFiles/cmTC_371eb.dir/objects.a -Wl,--no-whole-archive  -o cmTC_371eb.exe -Wl,--out-implib,libcmTC_371eb.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_371eb.dir/linklibs.rsp
+make.exe[1]: Leaving directory 'e:/CMP/Level3/Second/Computer Graphics/New folder/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++17] compiler features compiled with the following output:
+Change Dir: e:/CMP/Level3/Second/Computer Graphics/New folder/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/MinGW/bin/make.exe" "cmTC_2c564/fast"
+C:/MinGW/bin/make.exe -f CMakeFiles/cmTC_2c564.dir/build.make CMakeFiles/cmTC_2c564.dir/build
+make.exe[1]: Entering directory 'e:/CMP/Level3/Second/Computer Graphics/New folder/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_2c564.dir/feature_tests.cxx.obj
+cd "E:/CMP/Level3/Second/Computer Graphics/New folder/build/CMakeFiles/CMakeTmp" && C:/MinGW/bin/g++.exe    -std=c++17 -o CMakeFiles/cmTC_2c564.dir/feature_tests.cxx.obj -c "E:/CMP/Level3/Second/Computer Graphics/New folder/build/CMakeFiles/feature_tests.cxx"
+Linking CXX executable cmTC_2c564.exe
+cd "E:/CMP/Level3/Second/Computer Graphics/New folder/build/CMakeFiles/CMakeTmp" && "C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cmake.exe" -E remove -f CMakeFiles/cmTC_2c564.dir/objects.a
+cd "E:/CMP/Level3/Second/Computer Graphics/New folder/build/CMakeFiles/CMakeTmp" && C:/MinGW/bin/ar.exe cr CMakeFiles/cmTC_2c564.dir/objects.a @CMakeFiles/cmTC_2c564.dir/objects1.rsp
+cd "E:/CMP/Level3/Second/Computer Graphics/New folder/build/CMakeFiles/CMakeTmp" && C:/MinGW/bin/g++.exe      -Wl,--whole-archive CMakeFiles/cmTC_2c564.dir/objects.a -Wl,--no-whole-archive  -o cmTC_2c564.exe -Wl,--out-implib,libcmTC_2c564.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_2c564.dir/linklibs.rsp
+make.exe[1]: Leaving directory 'e:/CMP/Level3/Second/Computer Graphics/New folder/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++14] compiler features compiled with the following output:
+Change Dir: e:/CMP/Level3/Second/Computer Graphics/New folder/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/MinGW/bin/make.exe" "cmTC_5a52a/fast"
+C:/MinGW/bin/make.exe -f CMakeFiles/cmTC_5a52a.dir/build.make CMakeFiles/cmTC_5a52a.dir/build
+make.exe[1]: Entering directory 'e:/CMP/Level3/Second/Computer Graphics/New folder/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_5a52a.dir/feature_tests.cxx.obj
+cd "E:/CMP/Level3/Second/Computer Graphics/New folder/build/CMakeFiles/CMakeTmp" && C:/MinGW/bin/g++.exe    -std=c++14 -o CMakeFiles/cmTC_5a52a.dir/feature_tests.cxx.obj -c "E:/CMP/Level3/Second/Computer Graphics/New folder/build/CMakeFiles/feature_tests.cxx"
+Linking CXX executable cmTC_5a52a.exe
+cd "E:/CMP/Level3/Second/Computer Graphics/New folder/build/CMakeFiles/CMakeTmp" && "C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cmake.exe" -E remove -f CMakeFiles/cmTC_5a52a.dir/objects.a
+cd "E:/CMP/Level3/Second/Computer Graphics/New folder/build/CMakeFiles/CMakeTmp" && C:/MinGW/bin/ar.exe cr CMakeFiles/cmTC_5a52a.dir/objects.a @CMakeFiles/cmTC_5a52a.dir/objects1.rsp
+cd "E:/CMP/Level3/Second/Computer Graphics/New folder/build/CMakeFiles/CMakeTmp" && C:/MinGW/bin/g++.exe      -Wl,--whole-archive CMakeFiles/cmTC_5a52a.dir/objects.a -Wl,--no-whole-archive  -o cmTC_5a52a.exe -Wl,--out-implib,libcmTC_5a52a.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_5a52a.dir/linklibs.rsp
+make.exe[1]: Leaving directory 'e:/CMP/Level3/Second/Computer Graphics/New folder/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++11] compiler features compiled with the following output:
+Change Dir: e:/CMP/Level3/Second/Computer Graphics/New folder/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/MinGW/bin/make.exe" "cmTC_2fa51/fast"
+C:/MinGW/bin/make.exe -f CMakeFiles/cmTC_2fa51.dir/build.make CMakeFiles/cmTC_2fa51.dir/build
+make.exe[1]: Entering directory 'e:/CMP/Level3/Second/Computer Graphics/New folder/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_2fa51.dir/feature_tests.cxx.obj
+cd "E:/CMP/Level3/Second/Computer Graphics/New folder/build/CMakeFiles/CMakeTmp" && C:/MinGW/bin/g++.exe    -std=c++11 -o CMakeFiles/cmTC_2fa51.dir/feature_tests.cxx.obj -c "E:/CMP/Level3/Second/Computer Graphics/New folder/build/CMakeFiles/feature_tests.cxx"
+Linking CXX executable cmTC_2fa51.exe
+cd "E:/CMP/Level3/Second/Computer Graphics/New folder/build/CMakeFiles/CMakeTmp" && "C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cmake.exe" -E remove -f CMakeFiles/cmTC_2fa51.dir/objects.a
+cd "E:/CMP/Level3/Second/Computer Graphics/New folder/build/CMakeFiles/CMakeTmp" && C:/MinGW/bin/ar.exe cr CMakeFiles/cmTC_2fa51.dir/objects.a @CMakeFiles/cmTC_2fa51.dir/objects1.rsp
+cd "E:/CMP/Level3/Second/Computer Graphics/New folder/build/CMakeFiles/CMakeTmp" && C:/MinGW/bin/g++.exe      -Wl,--whole-archive CMakeFiles/cmTC_2fa51.dir/objects.a -Wl,--no-whole-archive  -o cmTC_2fa51.exe -Wl,--out-implib,libcmTC_2fa51.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_2fa51.dir/linklibs.rsp
+make.exe[1]: Leaving directory 'e:/CMP/Level3/Second/Computer Graphics/New folder/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++98] compiler features compiled with the following output:
+Change Dir: e:/CMP/Level3/Second/Computer Graphics/New folder/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/MinGW/bin/make.exe" "cmTC_ee204/fast"
+C:/MinGW/bin/make.exe -f CMakeFiles/cmTC_ee204.dir/build.make CMakeFiles/cmTC_ee204.dir/build
+make.exe[1]: Entering directory 'e:/CMP/Level3/Second/Computer Graphics/New folder/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_ee204.dir/feature_tests.cxx.obj
+cd "E:/CMP/Level3/Second/Computer Graphics/New folder/build/CMakeFiles/CMakeTmp" && C:/MinGW/bin/g++.exe    -std=c++98 -o CMakeFiles/cmTC_ee204.dir/feature_tests.cxx.obj -c "E:/CMP/Level3/Second/Computer Graphics/New folder/build/CMakeFiles/feature_tests.cxx"
+Linking CXX executable cmTC_ee204.exe
+cd "E:/CMP/Level3/Second/Computer Graphics/New folder/build/CMakeFiles/CMakeTmp" && "C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cmake.exe" -E remove -f CMakeFiles/cmTC_ee204.dir/objects.a
+cd "E:/CMP/Level3/Second/Computer Graphics/New folder/build/CMakeFiles/CMakeTmp" && C:/MinGW/bin/ar.exe cr CMakeFiles/cmTC_ee204.dir/objects.a @CMakeFiles/cmTC_ee204.dir/objects1.rsp
+cd "E:/CMP/Level3/Second/Computer Graphics/New folder/build/CMakeFiles/CMakeTmp" && C:/MinGW/bin/g++.exe      -Wl,--whole-archive CMakeFiles/cmTC_ee204.dir/objects.a -Wl,--no-whole-archive  -o cmTC_ee204.exe -Wl,--out-implib,libcmTC_ee204.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_ee204.dir/linklibs.rsp
+make.exe[1]: Leaving directory 'e:/CMP/Level3/Second/Computer Graphics/New folder/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:0cxx_alias_templates
+    Feature record: CXX_FEATURE:0cxx_alignas
+    Feature record: CXX_FEATURE:0cxx_alignof
+    Feature record: CXX_FEATURE:0cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:0cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:0cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:0cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:0cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:0cxx_default_function_template_args
+    Feature record: CXX_FEATURE:0cxx_defaulted_functions
+    Feature record: CXX_FEATURE:0cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:0cxx_delegating_constructors
+    Feature record: CXX_FEATURE:0cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:0cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:0cxx_explicit_conversions
+    Feature record: CXX_FEATURE:0cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:0cxx_extern_templates
+    Feature record: CXX_FEATURE:0cxx_final
+    Feature record: CXX_FEATURE:0cxx_func_identifier
+    Feature record: CXX_FEATURE:0cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:0cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:0cxx_inline_namespaces
+    Feature record: CXX_FEATURE:0cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:0cxx_local_type_template_args
+    Feature record: CXX_FEATURE:0cxx_long_long_type
+    Feature record: CXX_FEATURE:0cxx_noexcept
+    Feature record: CXX_FEATURE:0cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:0cxx_nullptr
+    Feature record: CXX_FEATURE:0cxx_override
+    Feature record: CXX_FEATURE:0cxx_range_for
+    Feature record: CXX_FEATURE:0cxx_raw_string_literals
+    Feature record: CXX_FEATURE:0cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:0cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:0cxx_rvalue_references
+    Feature record: CXX_FEATURE:0cxx_sizeof_member
+    Feature record: CXX_FEATURE:0cxx_static_assert
+    Feature record: CXX_FEATURE:0cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:0cxx_thread_local
+    Feature record: CXX_FEATURE:0cxx_trailing_return_types
+    Feature record: CXX_FEATURE:0cxx_unicode_literals
+    Feature record: CXX_FEATURE:0cxx_uniform_initialization
+    Feature record: CXX_FEATURE:0cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:0cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:0cxx_variadic_macros
+    Feature record: CXX_FEATURE:0cxx_variadic_templates
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: e:/CMP/Level3/Second/Computer Graphics/New folder/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/MinGW/bin/make.exe" "cmTC_27a0e/fast"
+C:/MinGW/bin/make.exe -f CMakeFiles/cmTC_27a0e.dir/build.make CMakeFiles/cmTC_27a0e.dir/build
+make.exe[1]: Entering directory 'e:/CMP/Level3/Second/Computer Graphics/New folder/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_27a0e.dir/CheckIncludeFile.c.obj
+cd "E:/CMP/Level3/Second/Computer Graphics/New folder/build/CMakeFiles/CMakeTmp" && C:/MinGW/bin/gcc.exe    -o CMakeFiles/cmTC_27a0e.dir/CheckIncludeFile.c.obj   -c "E:/CMP/Level3/Second/Computer Graphics/New folder/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c"
+Linking C executable cmTC_27a0e.exe
+cd "E:/CMP/Level3/Second/Computer Graphics/New folder/build/CMakeFiles/CMakeTmp" && "C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cmake.exe" -E remove -f CMakeFiles/cmTC_27a0e.dir/objects.a
+cd "E:/CMP/Level3/Second/Computer Graphics/New folder/build/CMakeFiles/CMakeTmp" && C:/MinGW/bin/ar.exe cr CMakeFiles/cmTC_27a0e.dir/objects.a @CMakeFiles/cmTC_27a0e.dir/objects1.rsp
+cd "E:/CMP/Level3/Second/Computer Graphics/New folder/build/CMakeFiles/CMakeTmp" && C:/MinGW/bin/gcc.exe      -Wl,--whole-archive CMakeFiles/cmTC_27a0e.dir/objects.a -Wl,--no-whole-archive  -o cmTC_27a0e.exe -Wl,--out-implib,libcmTC_27a0e.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_27a0e.dir/linklibs.rsp
+make.exe[1]: Leaving directory 'e:/CMP/Level3/Second/Computer Graphics/New folder/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the pthread_create exist passed with the following output:
+Change Dir: e:/CMP/Level3/Second/Computer Graphics/New folder/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/MinGW/bin/make.exe" "cmTC_4d04a/fast"
+C:/MinGW/bin/make.exe -f CMakeFiles/cmTC_4d04a.dir/build.make CMakeFiles/cmTC_4d04a.dir/build
+make.exe[1]: Entering directory 'e:/CMP/Level3/Second/Computer Graphics/New folder/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4d04a.dir/CheckSymbolExists.c.obj
+cd "E:/CMP/Level3/Second/Computer Graphics/New folder/build/CMakeFiles/CMakeTmp" && C:/MinGW/bin/gcc.exe    -o CMakeFiles/cmTC_4d04a.dir/CheckSymbolExists.c.obj   -c "E:/CMP/Level3/Second/Computer Graphics/New folder/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c"
+Linking C executable cmTC_4d04a.exe
+cd "E:/CMP/Level3/Second/Computer Graphics/New folder/build/CMakeFiles/CMakeTmp" && "C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cmake.exe" -E remove -f CMakeFiles/cmTC_4d04a.dir/objects.a
+cd "E:/CMP/Level3/Second/Computer Graphics/New folder/build/CMakeFiles/CMakeTmp" && C:/MinGW/bin/ar.exe cr CMakeFiles/cmTC_4d04a.dir/objects.a @CMakeFiles/cmTC_4d04a.dir/objects1.rsp
+cd "E:/CMP/Level3/Second/Computer Graphics/New folder/build/CMakeFiles/CMakeTmp" && C:/MinGW/bin/gcc.exe      -Wl,--whole-archive CMakeFiles/cmTC_4d04a.dir/objects.a -Wl,--no-whole-archive  -o cmTC_4d04a.exe -Wl,--out-implib,libcmTC_4d04a.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_4d04a.dir/linklibs.rsp
+make.exe[1]: Leaving directory 'e:/CMP/Level3/Second/Computer Graphics/New folder/build/CMakeFiles/CMakeTmp'
+
+File e:/CMP/Level3/Second/Computer Graphics/New folder/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the include file dinput.h exists passed with the following output:
+Change Dir: e:/CMP/Level3/Second/Computer Graphics/New folder/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/MinGW/bin/make.exe" "cmTC_0429e/fast"
+C:/MinGW/bin/make.exe -f CMakeFiles/cmTC_0429e.dir/build.make CMakeFiles/cmTC_0429e.dir/build
+make.exe[1]: Entering directory 'e:/CMP/Level3/Second/Computer Graphics/New folder/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0429e.dir/CheckIncludeFile.c.obj
+cd "E:/CMP/Level3/Second/Computer Graphics/New folder/build/CMakeFiles/CMakeTmp" && C:/MinGW/bin/gcc.exe    -o CMakeFiles/cmTC_0429e.dir/CheckIncludeFile.c.obj   -c "E:/CMP/Level3/Second/Computer Graphics/New folder/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c"
+Linking C executable cmTC_0429e.exe
+cd "E:/CMP/Level3/Second/Computer Graphics/New folder/build/CMakeFiles/CMakeTmp" && "C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cmake.exe" -E remove -f CMakeFiles/cmTC_0429e.dir/objects.a
+cd "E:/CMP/Level3/Second/Computer Graphics/New folder/build/CMakeFiles/CMakeTmp" && C:/MinGW/bin/ar.exe cr CMakeFiles/cmTC_0429e.dir/objects.a @CMakeFiles/cmTC_0429e.dir/objects1.rsp
+cd "E:/CMP/Level3/Second/Computer Graphics/New folder/build/CMakeFiles/CMakeTmp" && C:/MinGW/bin/gcc.exe      -Wl,--whole-archive CMakeFiles/cmTC_0429e.dir/objects.a -Wl,--no-whole-archive  -o cmTC_0429e.exe -Wl,--out-implib,libcmTC_0429e.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_0429e.dir/linklibs.rsp
+make.exe[1]: Leaving directory 'e:/CMP/Level3/Second/Computer Graphics/New folder/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file xinput.h exists passed with the following output:
+Change Dir: e:/CMP/Level3/Second/Computer Graphics/New folder/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/MinGW/bin/make.exe" "cmTC_a6b61/fast"
+C:/MinGW/bin/make.exe -f CMakeFiles/cmTC_a6b61.dir/build.make CMakeFiles/cmTC_a6b61.dir/build
+make.exe[1]: Entering directory 'e:/CMP/Level3/Second/Computer Graphics/New folder/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a6b61.dir/CheckIncludeFile.c.obj
+cd "E:/CMP/Level3/Second/Computer Graphics/New folder/build/CMakeFiles/CMakeTmp" && C:/MinGW/bin/gcc.exe    -o CMakeFiles/cmTC_a6b61.dir/CheckIncludeFile.c.obj   -c "E:/CMP/Level3/Second/Computer Graphics/New folder/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c"
+Linking C executable cmTC_a6b61.exe
+cd "E:/CMP/Level3/Second/Computer Graphics/New folder/build/CMakeFiles/CMakeTmp" && "C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cmake.exe" -E remove -f CMakeFiles/cmTC_a6b61.dir/objects.a
+cd "E:/CMP/Level3/Second/Computer Graphics/New folder/build/CMakeFiles/CMakeTmp" && C:/MinGW/bin/ar.exe cr CMakeFiles/cmTC_a6b61.dir/objects.a @CMakeFiles/cmTC_a6b61.dir/objects1.rsp
+cd "E:/CMP/Level3/Second/Computer Graphics/New folder/build/CMakeFiles/CMakeTmp" && C:/MinGW/bin/gcc.exe      -Wl,--whole-archive CMakeFiles/cmTC_a6b61.dir/objects.a -Wl,--no-whole-archive  -o cmTC_a6b61.exe -Wl,--out-implib,libcmTC_a6b61.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_a6b61.dir/linklibs.rsp
+make.exe[1]: Leaving directory 'e:/CMP/Level3/Second/Computer Graphics/New folder/build/CMakeFiles/CMakeTmp'
+
+
+Performing C SOURCE FILE Test _GLFW_HAS_DEP succeeded with the following output:
+Change Dir: e:/CMP/Level3/Second/Computer Graphics/New folder/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/MinGW/bin/make.exe" "cmTC_76370/fast"
+C:/MinGW/bin/make.exe -f CMakeFiles/cmTC_76370.dir/build.make CMakeFiles/cmTC_76370.dir/build
+make.exe[1]: Entering directory 'e:/CMP/Level3/Second/Computer Graphics/New folder/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_76370.dir/src.c.obj
+cd "E:/CMP/Level3/Second/Computer Graphics/New folder/build/CMakeFiles/CMakeTmp" && C:/MinGW/bin/gcc.exe   -D_GLFW_HAS_DEP -Wl,--nxcompat   -o CMakeFiles/cmTC_76370.dir/src.c.obj   -c "E:/CMP/Level3/Second/Computer Graphics/New folder/build/CMakeFiles/CMakeTmp/src.c"
+Linking C executable cmTC_76370.exe
+cd "E:/CMP/Level3/Second/Computer Graphics/New folder/build/CMakeFiles/CMakeTmp" && "C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cmake.exe" -E remove -f CMakeFiles/cmTC_76370.dir/objects.a
+cd "E:/CMP/Level3/Second/Computer Graphics/New folder/build/CMakeFiles/CMakeTmp" && C:/MinGW/bin/ar.exe cr CMakeFiles/cmTC_76370.dir/objects.a @CMakeFiles/cmTC_76370.dir/objects1.rsp
+cd "E:/CMP/Level3/Second/Computer Graphics/New folder/build/CMakeFiles/CMakeTmp" && C:/MinGW/bin/gcc.exe  -D_GLFW_HAS_DEP -Wl,--nxcompat    -Wl,--whole-archive CMakeFiles/cmTC_76370.dir/objects.a -Wl,--no-whole-archive  -o cmTC_76370.exe -Wl,--out-implib,libcmTC_76370.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_76370.dir/linklibs.rsp
+make.exe[1]: Leaving directory 'e:/CMP/Level3/Second/Computer Graphics/New folder/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test _GLFW_HAS_ASLR succeeded with the following output:
+Change Dir: e:/CMP/Level3/Second/Computer Graphics/New folder/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/MinGW/bin/make.exe" "cmTC_95c41/fast"
+C:/MinGW/bin/make.exe -f CMakeFiles/cmTC_95c41.dir/build.make CMakeFiles/cmTC_95c41.dir/build
+make.exe[1]: Entering directory 'e:/CMP/Level3/Second/Computer Graphics/New folder/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_95c41.dir/src.c.obj
+cd "E:/CMP/Level3/Second/Computer Graphics/New folder/build/CMakeFiles/CMakeTmp" && C:/MinGW/bin/gcc.exe   -D_GLFW_HAS_ASLR -Wl,--dynamicbase   -o CMakeFiles/cmTC_95c41.dir/src.c.obj   -c "E:/CMP/Level3/Second/Computer Graphics/New folder/build/CMakeFiles/CMakeTmp/src.c"
+Linking C executable cmTC_95c41.exe
+cd "E:/CMP/Level3/Second/Computer Graphics/New folder/build/CMakeFiles/CMakeTmp" && "C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cmake.exe" -E remove -f CMakeFiles/cmTC_95c41.dir/objects.a
+cd "E:/CMP/Level3/Second/Computer Graphics/New folder/build/CMakeFiles/CMakeTmp" && C:/MinGW/bin/ar.exe cr CMakeFiles/cmTC_95c41.dir/objects.a @CMakeFiles/cmTC_95c41.dir/objects1.rsp
+cd "E:/CMP/Level3/Second/Computer Graphics/New folder/build/CMakeFiles/CMakeTmp" && C:/MinGW/bin/gcc.exe  -D_GLFW_HAS_ASLR -Wl,--dynamicbase    -Wl,--whole-archive CMakeFiles/cmTC_95c41.dir/objects.a -Wl,--no-whole-archive  -o cmTC_95c41.exe -Wl,--out-implib,libcmTC_95c41.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_95c41.dir/linklibs.rsp
+make.exe[1]: Leaving directory 'e:/CMP/Level3/Second/Computer Graphics/New folder/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test _GLFW_HAS_64ASLR succeeded with the following output:
+Change Dir: e:/CMP/Level3/Second/Computer Graphics/New folder/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/MinGW/bin/make.exe" "cmTC_7c4eb/fast"
+C:/MinGW/bin/make.exe -f CMakeFiles/cmTC_7c4eb.dir/build.make CMakeFiles/cmTC_7c4eb.dir/build
+make.exe[1]: Entering directory 'e:/CMP/Level3/Second/Computer Graphics/New folder/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7c4eb.dir/src.c.obj
+cd "E:/CMP/Level3/Second/Computer Graphics/New folder/build/CMakeFiles/CMakeTmp" && C:/MinGW/bin/gcc.exe   -D_GLFW_HAS_64ASLR -Wl,--high-entropy-va   -o CMakeFiles/cmTC_7c4eb.dir/src.c.obj   -c "E:/CMP/Level3/Second/Computer Graphics/New folder/build/CMakeFiles/CMakeTmp/src.c"
+Linking C executable cmTC_7c4eb.exe
+cd "E:/CMP/Level3/Second/Computer Graphics/New folder/build/CMakeFiles/CMakeTmp" && "C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cmake.exe" -E remove -f CMakeFiles/cmTC_7c4eb.dir/objects.a
+cd "E:/CMP/Level3/Second/Computer Graphics/New folder/build/CMakeFiles/CMakeTmp" && C:/MinGW/bin/ar.exe cr CMakeFiles/cmTC_7c4eb.dir/objects.a @CMakeFiles/cmTC_7c4eb.dir/objects1.rsp
+cd "E:/CMP/Level3/Second/Computer Graphics/New folder/build/CMakeFiles/CMakeTmp" && C:/MinGW/bin/gcc.exe  -D_GLFW_HAS_64ASLR -Wl,--high-entropy-va    -Wl,--whole-archive CMakeFiles/cmTC_7c4eb.dir/objects.a -Wl,--no-whole-archive  -o cmTC_7c4eb.exe -Wl,--out-implib,libcmTC_7c4eb.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_7c4eb.dir/linklibs.rsp
+make.exe[1]: Leaving directory 'e:/CMP/Level3/Second/Computer Graphics/New folder/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }

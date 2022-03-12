@@ -1,0 +1,14 @@
+E:/CMP/Level3/Second/Computer Graphics/New folder/build/CMakeFiles/package_source.dir
+E:/CMP/Level3/Second/Computer Graphics/New folder/build/CMakeFiles/Example.dir
+E:/CMP/Level3/Second/Computer Graphics/New folder/build/CMakeFiles/package.dir
+E:/CMP/Level3/Second/Computer Graphics/New folder/build/CMakeFiles/edit_cache.dir
+E:/CMP/Level3/Second/Computer Graphics/New folder/build/CMakeFiles/rebuild_cache.dir
+E:/CMP/Level3/Second/Computer Graphics/New folder/build/vendor/glfw/CMakeFiles/package.dir
+E:/CMP/Level3/Second/Computer Graphics/New folder/build/vendor/glfw/CMakeFiles/package_source.dir
+E:/CMP/Level3/Second/Computer Graphics/New folder/build/vendor/glfw/CMakeFiles/edit_cache.dir
+E:/CMP/Level3/Second/Computer Graphics/New folder/build/vendor/glfw/CMakeFiles/rebuild_cache.dir
+E:/CMP/Level3/Second/Computer Graphics/New folder/build/vendor/glfw/src/CMakeFiles/rebuild_cache.dir
+E:/CMP/Level3/Second/Computer Graphics/New folder/build/vendor/glfw/src/CMakeFiles/glfw.dir
+E:/CMP/Level3/Second/Computer Graphics/New folder/build/vendor/glfw/src/CMakeFiles/package.dir
+E:/CMP/Level3/Second/Computer Graphics/New folder/build/vendor/glfw/src/CMakeFiles/package_source.dir
+E:/CMP/Level3/Second/Computer Graphics/New folder/build/vendor/glfw/src/CMakeFiles/edit_cache.dir

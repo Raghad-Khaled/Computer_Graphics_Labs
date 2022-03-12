@@ -1,0 +1,87 @@
+[
+{
+  "directory": "E:/CMP/Level3/Second/Computer Graphics/New folder/build",
+  "command": "C:/MinGW/bin/g++.exe   @CMakeFiles/Example.dir/includes_CXX.rsp -g   -o CMakeFiles/Example.dir/main.cpp.obj -c \"E:/CMP/Level3/Second/Computer Graphics/New folder/main.cpp\"",
+  "file": "E:/CMP/Level3/Second/Computer Graphics/New folder/main.cpp"
+},
+{
+  "directory": "E:/CMP/Level3/Second/Computer Graphics/New folder/build",
+  "command": "C:/MinGW/bin/gcc.exe  @CMakeFiles/Example.dir/includes_C.rsp -g   -o CMakeFiles/Example.dir/vendor/glad/src/gl.c.obj   -c \"E:/CMP/Level3/Second/Computer Graphics/New folder/vendor/glad/src/gl.c\"",
+  "file": "E:/CMP/Level3/Second/Computer Graphics/New folder/vendor/glad/src/gl.c"
+},
+{
+  "directory": "E:/CMP/Level3/Second/Computer Graphics/New folder/build/vendor/glfw/src",
+  "command": "C:/MinGW/bin/gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g   -Wall -std=gnu99 -Wdeclaration-after-statement -o CMakeFiles/glfw.dir/context.c.obj   -c \"E:/CMP/Level3/Second/Computer Graphics/New folder/vendor/glfw/src/context.c\"",
+  "file": "E:/CMP/Level3/Second/Computer Graphics/New folder/vendor/glfw/src/context.c"
+},
+{
+  "directory": "E:/CMP/Level3/Second/Computer Graphics/New folder/build/vendor/glfw/src",
+  "command": "C:/MinGW/bin/gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g   -Wall -std=gnu99 -Wdeclaration-after-statement -o CMakeFiles/glfw.dir/init.c.obj   -c \"E:/CMP/Level3/Second/Computer Graphics/New folder/vendor/glfw/src/init.c\"",
+  "file": "E:/CMP/Level3/Second/Computer Graphics/New folder/vendor/glfw/src/init.c"
+},
+{
+  "directory": "E:/CMP/Level3/Second/Computer Graphics/New folder/build/vendor/glfw/src",
+  "command": "C:/MinGW/bin/gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g   -Wall -std=gnu99 -Wdeclaration-after-statement -o CMakeFiles/glfw.dir/input.c.obj   -c \"E:/CMP/Level3/Second/Computer Graphics/New folder/vendor/glfw/src/input.c\"",
+  "file": "E:/CMP/Level3/Second/Computer Graphics/New folder/vendor/glfw/src/input.c"
+},
+{
+  "directory": "E:/CMP/Level3/Second/Computer Graphics/New folder/build/vendor/glfw/src",
+  "command": "C:/MinGW/bin/gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g   -Wall -std=gnu99 -Wdeclaration-after-statement -o CMakeFiles/glfw.dir/monitor.c.obj   -c \"E:/CMP/Level3/Second/Computer Graphics/New folder/vendor/glfw/src/monitor.c\"",
+  "file": "E:/CMP/Level3/Second/Computer Graphics/New folder/vendor/glfw/src/monitor.c"
+},
+{
+  "directory": "E:/CMP/Level3/Second/Computer Graphics/New folder/build/vendor/glfw/src",
+  "command": "C:/MinGW/bin/gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g   -Wall -std=gnu99 -Wdeclaration-after-statement -o CMakeFiles/glfw.dir/vulkan.c.obj   -c \"E:/CMP/Level3/Second/Computer Graphics/New folder/vendor/glfw/src/vulkan.c\"",
+  "file": "E:/CMP/Level3/Second/Computer Graphics/New folder/vendor/glfw/src/vulkan.c"
+},
+{
+  "directory": "E:/CMP/Level3/Second/Computer Graphics/New folder/build/vendor/glfw/src",
+  "command": "C:/MinGW/bin/gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g   -Wall -std=gnu99 -Wdeclaration-after-statement -o CMakeFiles/glfw.dir/window.c.obj   -c \"E:/CMP/Level3/Second/Computer Graphics/New folder/vendor/glfw/src/window.c\"",
+  "file": "E:/CMP/Level3/Second/Computer Graphics/New folder/vendor/glfw/src/window.c"
+},
+{
+  "directory": "E:/CMP/Level3/Second/Computer Graphics/New folder/build/vendor/glfw/src",
+  "command": "C:/MinGW/bin/gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g   -Wall -std=gnu99 -Wdeclaration-after-statement -o CMakeFiles/glfw.dir/win32_init.c.obj   -c \"E:/CMP/Level3/Second/Computer Graphics/New folder/vendor/glfw/src/win32_init.c\"",
+  "file": "E:/CMP/Level3/Second/Computer Graphics/New folder/vendor/glfw/src/win32_init.c"
+},
+{
+  "directory": "E:/CMP/Level3/Second/Computer Graphics/New folder/build/vendor/glfw/src",
+  "command": "C:/MinGW/bin/gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g   -Wall -std=gnu99 -Wdeclaration-after-statement -o CMakeFiles/glfw.dir/win32_joystick.c.obj   -c \"E:/CMP/Level3/Second/Computer Graphics/New folder/vendor/glfw/src/win32_joystick.c\"",
+  "file": "E:/CMP/Level3/Second/Computer Graphics/New folder/vendor/glfw/src/win32_joystick.c"
+},
+{
+  "directory": "E:/CMP/Level3/Second/Computer Graphics/New folder/build/vendor/glfw/src",
+  "command": "C:/MinGW/bin/gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g   -Wall -std=gnu99 -Wdeclaration-after-statement -o CMakeFiles/glfw.dir/win32_monitor.c.obj   -c \"E:/CMP/Level3/Second/Computer Graphics/New folder/vendor/glfw/src/win32_monitor.c\"",
+  "file": "E:/CMP/Level3/Second/Computer Graphics/New folder/vendor/glfw/src/win32_monitor.c"
+},
+{
+  "directory": "E:/CMP/Level3/Second/Computer Graphics/New folder/build/vendor/glfw/src",
+  "command": "C:/MinGW/bin/gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g   -Wall -std=gnu99 -Wdeclaration-after-statement -o CMakeFiles/glfw.dir/win32_time.c.obj   -c \"E:/CMP/Level3/Second/Computer Graphics/New folder/vendor/glfw/src/win32_time.c\"",
+  "file": "E:/CMP/Level3/Second/Computer Graphics/New folder/vendor/glfw/src/win32_time.c"
+},
+{
+  "directory": "E:/CMP/Level3/Second/Computer Graphics/New folder/build/vendor/glfw/src",
+  "command": "C:/MinGW/bin/gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g   -Wall -std=gnu99 -Wdeclaration-after-statement -o CMakeFiles/glfw.dir/win32_thread.c.obj   -c \"E:/CMP/Level3/Second/Computer Graphics/New folder/vendor/glfw/src/win32_thread.c\"",
+  "file": "E:/CMP/Level3/Second/Computer Graphics/New folder/vendor/glfw/src/win32_thread.c"
+},
+{
+  "directory": "E:/CMP/Level3/Second/Computer Graphics/New folder/build/vendor/glfw/src",
+  "command": "C:/MinGW/bin/gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g   -Wall -std=gnu99 -Wdeclaration-after-statement -o CMakeFiles/glfw.dir/win32_window.c.obj   -c \"E:/CMP/Level3/Second/Computer Graphics/New folder/vendor/glfw/src/win32_window.c\"",
+  "file": "E:/CMP/Level3/Second/Computer Graphics/New folder/vendor/glfw/src/win32_window.c"
+},
+{
+  "directory": "E:/CMP/Level3/Second/Computer Graphics/New folder/build/vendor/glfw/src",
+  "command": "C:/MinGW/bin/gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g   -Wall -std=gnu99 -Wdeclaration-after-statement -o CMakeFiles/glfw.dir/wgl_context.c.obj   -c \"E:/CMP/Level3/Second/Computer Graphics/New folder/vendor/glfw/src/wgl_context.c\"",
+  "file": "E:/CMP/Level3/Second/Computer Graphics/New folder/vendor/glfw/src/wgl_context.c"
+},
+{
+  "directory": "E:/CMP/Level3/Second/Computer Graphics/New folder/build/vendor/glfw/src",
+  "command": "C:/MinGW/bin/gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g   -Wall -std=gnu99 -Wdeclaration-after-statement -o CMakeFiles/glfw.dir/egl_context.c.obj   -c \"E:/CMP/Level3/Second/Computer Graphics/New folder/vendor/glfw/src/egl_context.c\"",
+  "file": "E:/CMP/Level3/Second/Computer Graphics/New folder/vendor/glfw/src/egl_context.c"
+},
+{
+  "directory": "E:/CMP/Level3/Second/Computer Graphics/New folder/build/vendor/glfw/src",
+  "command": "C:/MinGW/bin/gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g   -Wall -std=gnu99 -Wdeclaration-after-statement -o CMakeFiles/glfw.dir/osmesa_context.c.obj   -c \"E:/CMP/Level3/Second/Computer Graphics/New folder/vendor/glfw/src/osmesa_context.c\"",
+  "file": "E:/CMP/Level3/Second/Computer Graphics/New folder/vendor/glfw/src/osmesa_context.c"
+}
+]
